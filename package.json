@@ -1,0 +1,29 @@
+{
+  "name": "abe-replace-variable",
+  "version": "1.0.0",
+  "description": "> plugin Abe to replace `variable` to `value` using abe references",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdFabConnect/abe-replace-variable.git"
+  },
+  "author": "Nicolas Labbé",
+  "license": "ISC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdFabConnect/abe-replace-variable/issues"
+  },
+  "homepage": "https://github.com/AdFabConnect/abe-replace-variable#readme",
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "mkdirp": "^0.5.1"
+  },
+  "keywords": [
+    "replace",
+    "variables",
+    "references"
+  ]
+}
