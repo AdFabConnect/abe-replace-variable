@@ -11,6 +11,7 @@ var hooks = {
     	mkdirp.sync(path.join(abe.config.root, 'reference'))
     	abe.fse.writeJsonSync(refFilePath, {"$$variableName$$": "replacement"}, { space: 2, encoding: 'utf-8' })
     }
+	return app;
 	},
 	afterPageSaveCompile: function(html, json, abe) {
 		var refFilePath = path.join(abe.config.root, 'reference', 'abe-variable-references.json')
