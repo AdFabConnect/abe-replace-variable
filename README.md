@@ -1,21 +1,14 @@
 # abe-replace-variable
 
-Edit:
+## Usage
 
-Edit references: `abe-variable-references.json`
-
-add a reference: 
-
+Add a reference in `abe-variable-references.json` file:
 ```json
 {
-	"$$firstname": "john doe"
+    "$$firstname": "john doe"
 }
 ```
 
-Example:
+Into input type text write `hello $$firstname`.
 
-into input type text write `hello $$firstname`
-
-# Publish
-
-when the post is published `hello $$firstname` will be replaced by `john doe`
+When the post is published `hello $$firstname` will be replaced by `john doe`.
